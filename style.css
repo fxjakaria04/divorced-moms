@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   
+    
+    
+        background-image: url("images/background.gif");
+        
+        
+        /* Add the blur effect */
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+        
+        /* Full height */
+        height: 100%; 
+        
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    
+}
+.container {
+    /* background-color: black; */
+}
+.img-cercle {
+    border-radius: 50%;
+    width: 350px;
+    border: 20px solid white;
+}
+.content-area {
+    position: relative;
+    background-color: black;
+    background-size: 100%;
+    z-index: 3;
+}
+.content-box {
+    position: absolute;
+    
+    display: absolute;
+    opacity: 5;
+    margin-top: 64px;
+
+
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  
+  
+  z-index: 2;
+  /* width: 80%; */
+  padding: 40px 120px;
+  border-radius: 30px;
+  text-align: center;
+}
+.icon {
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+
+}
+.icon-1 {
+    background-color: red;
+}
+.icon-2 {
+    background-color: green;
+}
+.atribute {
+    font-size: 30px;
+    margin: 28px 0px;
+}
+.dami {
+    color: white;
+    text-decoration: none;
+}
+.button {
+    padding: 10px 25px;
+    color: white;
+}
+.button-left {
+    float: left;
+}
+.button-left {
+    float: right;
+}
+
+.lal {
+    color: red;
+    font-size: 40px;
+    color: white;
+}
+.paragraph {
+    color: yellowgreen;
+    text-shadow: -1px -1px 3px red;
+}
+.ancor {
+    text-decoration: none;
+}
+.border {
+    border: 1px solid rgb(93, 247, 132) !important;
+}
